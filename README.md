@@ -1,5 +1,6 @@
 # GitHubCommands
 Codecademy project
+# Project 1 
 Let’s practice some Git branching.
 
 In this project, you’ll be using Git to make a 1-page website for your friend Kay’s birthday party.
@@ -114,5 +115,59 @@ git commit -m "Increase heading font size in index.html"
 git checkout master
 git merge big-heading
 
+```
+# ||||||------------------------------------------------------------------------------|||||
+# Project 2
+# Ruby Time Calculator
 
+In this project, you’ll have to resolve merge conflicts in two markdown files. Markdown is a file format that converts easily into HTML. You won’t have to write any markdown, just identify the differences between lines.
+
+Take a deep breath. You can do this!
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
+
+## Tasks
+
+1. **You are currently on master.**
+   Merge the edits branch into the master branch.
+   This will create two merge conflicts: README.md and examples.md.
+
+2. **Using the file navigator, open README.md and examples.md. Identify the merge conflicts.**
+
+3. **In README.md, keep the file changes from the edits branch. Delete the file changes from HEAD.**
+   Don’t forget to delete all of Git’s special markings that indicate a merge conflict.
+   Click Save.
+
+4. **Add README.md to the staging area.**
+
+5. **Follow the same order of actions as above for examples.md: keep the edits branch file changes and delete the HEAD changes.**
+   Click Save.
+
+6. **Add examples.md to the staging area and make a commit. Your commit message could be “Resolve merge conflict”.**
+
+7. **Delete the edits branch.**
+
+
+# Solution 
+# Task 1: Merge edits branch into master
+git checkout master
+git merge edits
+
+# Task 2: Identify merge conflicts in README.md and examples.md (requires manual resolution)
+
+# Task 3: Resolve merge conflict in README.md
+# Open README.md file, keep changes from edits branch, delete changes from HEAD, save the file
+
+# Task 4: Add README.md to staging area
+git add README.md
+
+# Task 5: Resolve merge conflict in examples.md
+# Open examples.md file, keep changes from edits branch, delete changes from HEAD, save the file
+
+# Task 6: Add examples.md to staging area and make a commit
+git add examples.md
+git commit -m "Resolve merge conflict"
+
+# Task 7: Delete the edits branch
+git branch -d edits
 
