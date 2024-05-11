@@ -149,6 +149,7 @@ If you get stuck during this project or would like to see an experienced develop
 
 
 # Solution 
+```
 # Task 1: Merge edits branch into master
 git checkout master
 git merge edits
