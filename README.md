@@ -73,7 +73,7 @@ Kay approves of the giant heading!
 Switch back over to the master branch. Then, merge big-heading into master.
 sql
 
-#Solution 
+# Solution 
 ```
 # Task 1: List Git branches
 git branch
